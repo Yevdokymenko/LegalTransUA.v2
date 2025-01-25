@@ -1,0 +1,10 @@
+streamlit
+transformers
+torch
+openai
+python-dotenv
+requests
+beautifulsoup4
+PyMuPDF
+tqdm
+deep-translator

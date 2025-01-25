@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f4e7; /* Фон */
+    color: black; /* Текст чорного кольору */
+}
+
+.translator-interface {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1; /* Картинка на фоні */
+}
+
+.interface-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Загальні стилі для кнопок */
+button {
+    color: white !important; /* Білий текст */
+    background-color: #007bff !important; /* Синій фон */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стиль для кнопок при наведенні */
+button:hover {
+    background-color: #0056b3 !important; /* Темніший синій при наведенні */
+}
+
+/* Стиль для кнопок Streamlit */
+div.stButton > button {
+    color: white !important; /* Білий текст */
+    background-color: #007bff !important; /* Синій фон */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.stButton > button:hover {
+    background-color: #0056b3 !important; /* Темніший синій при наведенні */
+}
