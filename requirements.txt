@@ -8,3 +8,4 @@ beautifulsoup4
 PyMuPDF
 tqdm
 deep-translator
+lxml
