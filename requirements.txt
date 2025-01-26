@@ -9,3 +9,7 @@ PyMuPDF
 tqdm
 deep-translator
 lxml
+bs4
+python-dotenv
+PyMuPDF
+sentencepiece
